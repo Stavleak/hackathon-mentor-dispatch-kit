@@ -1,0 +1,1 @@
+ticket_id,team_code,received_at,acknowledged_at,queue_round,queued_at,status,topic,language,question,mentor_id,owner_role,owner_code,due_at,next_action,assigned_at,started_at,ended_at,closure_reason,closed_at,handover_to,handover_accepted_at,private_ref,updated_at

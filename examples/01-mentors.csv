@@ -1,0 +1,3 @@
+mentor_id,topics,languages,available_from,available_until,confirmed_at,location_code,status,coordinator_code
+M-001,tech,ru|kk,2026-10-10T10:15:00+05:00,2026-10-10T11:30:00+05:00,2026-10-10T09:55:00+05:00,ROOM-T,confirmed,D-A
+M-002,product|pitch,ru,2026-10-10T10:00:00+05:00,2026-10-10T11:30:00+05:00,2026-10-10T09:55:00+05:00,ROOM-P,confirmed,D-A

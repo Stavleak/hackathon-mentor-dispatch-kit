@@ -1,0 +1,13 @@
+decision_id,ticket_id,recorded_at,actor_code,from_status,to_status,reason_code,decision,owner_after,due_after
+D-201,Q-202,2026-10-10T10:40:00+05:00,D-A,,received,intake,Получено и подтверждено в 10:40,D-A,2026-10-10T10:43:00+05:00
+D-202,Q-202,2026-10-10T10:41:00+05:00,D-A,received,queued,question_ready,Раунд 1; queued_at=2026-10-10T10:41:00+05:00,D-A,2026-10-10T10:46:00+05:00
+D-203,Q-201,2026-10-10T10:44:00+05:00,D-A,,received,intake,Получено и подтверждено в 10:44,D-A,2026-10-10T10:47:00+05:00
+D-204,Q-201,2026-10-10T10:45:00+05:00,D-A,received,queued,question_ready,Раунд 1; queued_at=2026-10-10T10:45:00+05:00,D-A,2026-10-10T10:50:00+05:00
+D-205,Q-201,2026-10-10T10:45:00+05:00,D-A,queued,needs_route,no_specialist,Нет подтверждённого hardware/kk; команда уведомлена; проверяем резерв,D-A,2026-10-10T10:50:00+05:00
+D-206,Q-202,2026-10-10T10:46:00+05:00,D-A,queued,assigned,mentor_offer,Назначен M-001; assigned_at=2026-10-10T10:46:00+05:00; требуется подтверждение,D-A,2026-10-10T10:48:00+05:00
+D-207,Q-202,2026-10-10T10:48:00+05:00,D-A,assigned,queued,mentor_timeout,M-001 не ответил и исключён из доступных; queued_at сохранено; прежнее назначение снято,D-A,2026-10-10T10:52:00+05:00
+D-208,Q-201,2026-10-10T10:49:00+05:00,D-A,needs_route,awaiting_handover,handover_offered,Передача D-B предложена; прежний владелец остаётся D-A,D-A,2026-10-10T10:51:00+05:00
+D-209,Q-202,2026-10-10T10:49:00+05:00,D-A,queued,awaiting_handover,handover_offered,Передача D-B предложена; прежний владелец остаётся D-A,D-A,2026-10-10T10:51:00+05:00
+D-210,Q-202,2026-10-10T10:50:00+05:00,D-A,awaiting_handover,awaiting_handover,mentor_coverage,M-003 подтвердил смену с 10:52; встреча ещё не назначена,D-A,2026-10-10T10:51:00+05:00
+D-211,Q-201,2026-10-10T10:51:00+05:00,D-A,awaiting_handover,needs_route,handover_accepted,D-B принял номер и следующий шаг; handover_accepted_at=2026-10-10T10:51:00+05:00,D-B,2026-10-10T10:55:00+05:00
+D-212,Q-202,2026-10-10T10:51:00+05:00,D-A,awaiting_handover,queued,handover_accepted,D-B принял номер и следующий шаг; queued_at сохранено; D-A прекратил запись,D-B,2026-10-10T10:53:00+05:00
